@@ -12,6 +12,10 @@
     <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="6.0.10" />
     <PackageReference Include="StackExchange.Redis" Version="2.6.90" />
     <PackageReference Include="NReJSON" Version="4.0.0" />
+    <PackageReference Include="Quartz.AspNetCore" Version="3.6.2" />
+    <PackageReference Include="Quartz" Version="3.6.2" />
+    <PackageReference Include="Quartz.Extensions.Hosting" Version="3.6.2" />
+    <PackageReference Include="Quartz.Extensions.DependencyInjection" Version="3.6.2" />
   </ItemGroup>
 
   <ItemGroup>
@@ -29,6 +33,10 @@
     <None Remove="Swashbuckle.AspNetCore" />
     <None Remove="StackExchange.Redis" />
     <None Remove="NReJSON" />
+    <None Remove="Quartz.AspNetCore" />
+    <None Remove="Quartz" />
+    <None Remove="Quartz.Extensions.Hosting" />
+    <None Remove="Quartz.Extensions.DependencyInjection" />
   </ItemGroup>
   <ItemGroup>
     <Content Remove="docker\api\appsettings.json" />
